@@ -1,0 +1,27 @@
+{
+  "base_url": {
+    "type": "string",
+    "default": "",
+    "description": "changedetection.io 实例根地址，不含 /api/v1"
+  },
+  "api_key": {
+    "type": "string",
+    "default": "",
+    "description": "实例 API Key"
+  },
+  "allowed_sessions": {
+    "type": "list",
+    "default": [],
+    "description": "允许使用的会话ID，先执行 /watch whoami"
+  },
+  "allowed_domains": {
+    "type": "list",
+    "default": [],
+    "description": "允许监测的精确域名，如 example.com"
+  },
+  "poll_seconds": {
+    "type": "int",
+    "default": 300,
+    "description": "检查快照间隔，最少30秒"
+  }
+}

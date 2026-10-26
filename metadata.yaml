@@ -1,0 +1,7 @@
+name: astrbot_plugin_evidence_watch
+display_name: 网页变化证据哨兵
+desc: 连接 changedetection.io，用自然语言设定条件，仅对符合条件的网页变化推送原文证据和差异。
+version: 1.0.0
+author: AIdafashi
+repo: https://github.com/AIdafashi/astrbot_plugin_evidence_watch
+astrbot_version: ">=4.29.3"
